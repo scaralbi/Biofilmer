@@ -2,7 +2,7 @@
 
 cd /Users/ASdC/Desktop/biofilm_mat
 
-frame_rate = 20 %in minutes
+frame_rate = 10 %in minutes
 A = readmatrix('WT1.csv') %data of radial profile intensities from Fiji
 Rtot = size(A, 1), %tot number of radial points
 R = A(:,1); %get the values of the radi 
